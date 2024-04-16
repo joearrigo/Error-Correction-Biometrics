@@ -61,6 +61,11 @@ module.exports = {
       chunks: ['shortans']
     }),
     new HtmlWebpackPlugin({
+      filename: "shortans2.html",
+      template: path.join(__dirname, "pages", "shortans2.html"),
+      chunks: ['shortans']
+    }),
+    new HtmlWebpackPlugin({
       filename: "complete.html",
       template: path.join(__dirname, "pages", "complete.html"),
       chunks: ['complete']
