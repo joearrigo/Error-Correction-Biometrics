@@ -1,0 +1,23 @@
+services:
+  server:
+    build:
+      context: .
+    environment:
+      NODE_ENV: production
+    ports:
+      - 9000:9000
+    depends_on:
+      mongo:
+        condition: service_healthy
+  
+  mongo:
+    image: mongo:7
+    volumes:
+      - database:/data/db
+    ports:
+      - 27017:27017
+    healthcheck:
+      test: echo 'db.runCommand("ping").ok' | mongosh localhost:27017/test --quiet
+
+volumes:
+  database:
