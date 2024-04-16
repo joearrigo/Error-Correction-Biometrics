@@ -179,8 +179,10 @@ export default function QaPage(props) {
         headers.header2 = "Character counts are listed below or to the left of each text box.";
         headers.header3 = "Only use regular worlds in your responses: do not use any names, abbreviations, or fake words. Only dictionary words are acceptable.";
     }
-    else
+    else {
         headers.header1 = "Please correct the spelling errors, denoted by asterisks, in the following statements."
+	headers.header2 = "If you don't know a word after thinking for some time, you can change it"
+    }
 
     return (<>
     <Navbar href="" pageName={props.pName}/>

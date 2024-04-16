@@ -2,7 +2,7 @@ import React, {useEffect, useState} from "react"
 import {createRoot} from "react-dom/client";
 import Navbar from "./Components/Navbar"
 
-function WaiverPage() {
+function CompletePage() {
 
     return (<>
     <Navbar href="" pageName="Finish"/>
@@ -17,4 +17,4 @@ function WaiverPage() {
 }
 
 const root = document.getElementById('root')
-createRoot(root).render(<WaiverPage/>);
+createRoot(root).render(<CompletePage/>);

@@ -132,7 +132,8 @@ const pageGuides = {
     "qa1.html"      : "/qa2.html",
     "qa2.html"      : "/qa3.html",
     "qa3.html"      : "/shortans.html",
-    "shortans.html" : "/complete.html"
+    "shortans.html" : "/shortans2.html",
+    "shortans2.html" : "/complete.html"
 }
 
 const timeoutMinutes = 60;
@@ -415,7 +416,50 @@ var key_obj;
 (async function () {
     await startDB();
 })();
+/*
+pushOneDB("unusedKeys", {"code" : "MXQ74RC"});
+pushOneDB("unusedKeys", {"code" : "8A19U85"}); 
+pushOneDB("unusedKeys", {"code" : "CG9FP37"}); 
+pushOneDB("unusedKeys", {"code" : "P70W1TN"}); 
+pushOneDB("unusedKeys", {"code" : "FWLHD3I"}); 
 
+pushOneDB("unusedKeys", {"code" : "98J9433"}); 
+pushOneDB("unusedKeys", {"code" : "YN6XXQV"}); 
+pushOneDB("unusedKeys", {"code" : "0KNNNBX"}); 
+pushOneDB("unusedKeys", {"code" : "4KGL198"});  
+pushOneDB("unusedKeys", {"code" : "QBW9Y0B"});
+
+pushOneDB("unusedKeys", {"code" : "VTY0W43"});
+pushOneDB("unusedKeys", {"code" : "6Z3T2O7"});
+pushOneDB("unusedKeys", {"code" : "9DP7JN3"});
+pushOneDB("unusedKeys", {"code" : "3917OEL"});
+pushOneDB("unusedKeys", {"code" : "4YQF2IE"});
+pushOneDB("unusedKeys", {"code" : "YC884O6"});
+pushOneDB("unusedKeys", {"code" : "7725M62"});
+pushOneDB("unusedKeys", {"code" : "P6711OQ"});
+pushOneDB("unusedKeys", {"code" : "FYLFE10"});
+pushOneDB("unusedKeys", {"code" : "Y76YQ3I"});
+pushOneDB("unusedKeys", {"code" : "V8N524B"});
+pushOneDB("unusedKeys", {"code" : "7G9VK4B"});
+pushOneDB("unusedKeys", {"code" : "M34VMK9"});
+pushOneDB("unusedKeys", {"code" : "22508NQ"});
+pushOneDB("unusedKeys", {"code" : "BTDP145"});
+pushOneDB("unusedKeys", {"code" : "F791L98"});
+pushOneDB("unusedKeys", {"code" : "8BH7479"});
+pushOneDB("unusedKeys", {"code" : "P972NDQ"});
+pushOneDB("unusedKeys", {"code" : "9K5511U"});
+pushOneDB("unusedKeys", {"code" : "2I0IUQW"});
+pushOneDB("unusedKeys", {"code" : "E29USJM"});
+pushOneDB("unusedKeys", {"code" : "9VOK58Y"});
+pushOneDB("unusedKeys", {"code" : "EP6V395"});
+pushOneDB("unusedKeys", {"code" : "XXT8Z70"});
+pushOneDB("unusedKeys", {"code" : "36R5E77"});
+pushOneDB("unusedKeys", {"code" : "D20RR64"});
+pushOneDB("unusedKeys", {"code" : "8G7N5AG"});
+pushOneDB("unusedKeys", {"code" : "0T54752"});
+pushOneDB("unusedKeys", {"code" : "2AEG5V5"});
+pushOneDB("unusedKeys", {"code" : "I1812MN"});
+*/
 app.listen(port)
 
 

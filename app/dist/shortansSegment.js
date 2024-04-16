@@ -7,5 +7,5 @@ window.executePage = function(){
 
     document.getElementById("04").value = "The *apid de*elopment of artif*cial intel*igen** h*s opene* up *e* poss**ili*ies *nd c*allenge f*r vari*us*industries.";
 
-    document.getElementById("05").value = "*he *mportan*e of cybersecuri*y *n today’* digi*al age can*ot b* ov*rstated* w*t* thr*ats e*olving a* an *l*rming rate.";
+    document.getElementById("05").value = "*he *mportan*e of digi*al securi*y *n today’* digi*al age can*ot b* ov*rstated* w*t* thr*ats e*olving a* an *l*rming rate.";
 }
