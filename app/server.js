@@ -12,7 +12,7 @@ const dir = path.join(__dirname, 'dist');
 //DB vars
 const mongodb = require('mongodb');
 const { cursorTo } = require('readline');
-const mongoURI = 'mongodb://localhost:27017';
+const mongoURI = 'mongodb://mongo:27017';
 const client = new mongodb.MongoClient(mongoURI, {useNewUrlParser: true, useUnifiedTopology: true});
 
 //Research vars

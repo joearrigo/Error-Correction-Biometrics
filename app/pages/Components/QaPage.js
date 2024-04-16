@@ -59,7 +59,7 @@ function verifyButton(){
                 document.getElementById("04").value = res.q4;
                 document.getElementById("05").value = res.q5;
 
-                alert("Spelling errors have been added to your answers. Please correct them to submit this page without completely re-writing each answer.");
+                alert("Spelling errors represented by asterisks (*) have been added to your answers. Please correct them to submit this page without completely re-writing each answer.");
 
                 let textAreas = document.getElementsByClassName("user_input");
 
