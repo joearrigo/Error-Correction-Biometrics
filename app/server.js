@@ -274,8 +274,12 @@ app.post(/[\?\/]questionSubmit/, (req, res) => {
             updateOneDB("progress", req.signedCookies.user, "qa3.html");
         }
         else if(/shortans[.]html/.test(req.url)){
-            nextPage = "/complete.html";
+            nextPage = "/shortans.html";
             updateOneDB("progress", req.signedCookies.user, "shortans.html");
+        }
+        else if(/shortans2[.]html/.test(req.url)){
+            nextPage = "/complete.html";
+            updateOneDB("progress", req.signedCookies.user, "shortans2.html");
             pushOneDB("usedKeys", {"code" : req.signedCookies.user});
             deleteOneDB("unusedKeys", {"code" : req.signedCookies.user});
 
